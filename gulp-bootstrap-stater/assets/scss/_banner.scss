@@ -1,0 +1,95 @@
+.top--banner-area{
+    background-image: url(../img/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    padding: 60px 0 110px 0;
+     @media (min-width:600px) {
+        padding: 60px 0 80px 0;
+        background-position: center;
+     }
+    .banner--box{
+        width: 760px;
+        max-width: 100%;
+        padding: 1rem 1.5rem;
+        border-radius: 30px;
+       background: rgb(0, 0, 0,0.5);
+       background: linear-gradient(90deg, rgba(218, 218, 218, 0.01) 34%, rgba(255, 255, 255, 0.02) 100%);
+       backdrop-filter: blur(11px);
+       border: 1px solid rgba(255, 255, 255, 0.35);
+       @media (min-width:600px) {
+            border: none;
+              padding: 2rem 1.5rem;
+       }
+    }
+    .banner--tag{
+        background: rgba(255, 255, 255, 0.35);
+        color: black;
+        font-weight: 500;
+        padding: 5px 15px;
+        border-radius: 50px;
+        display: inline-block;
+    }
+    .banner--title{
+        font-size: 28px;
+        color: #1A1414;
+        font-weight: 600;
+        text-align: center;
+        @media (min-width: 600px) {
+             font-size: 36px;
+             text-align: left;
+        }
+        @media (min-width: 768px) {
+            font-size: 48px;
+        }
+    }
+    .banner--text{
+        font-size: 16px;
+        color: #1A1414;
+        text-align: center;
+        @media (min-width: 600px) {
+            font-size:20px;
+            text-align: left;
+        }
+          @media (min-width: 768px) {
+              font-size: 28px;
+          }
+    }
+    .banner--btn a{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0.9rem 2rem;
+        @media (min-width: 600px) {
+            font-size: 16px;
+            padding: 0.9rem 3rem;
+        }
+        @media (min-width: 768px) {
+            font-size: 20px;
+            padding: 0.9rem 4rem;
+        }
+    }
+    .banner--postcode{
+        border-radius: 50px;
+        background-color: #fff;
+        padding: 10px 5px;
+        width: 475px;
+        max-width: 100%;
+        input{
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            padding: 6px 15px;
+            background-color: transparent;
+            &:focus{
+                border: none;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+        img{
+            position: absolute;
+            right: 6px;
+            top: 5px
+        }
+    }
+}

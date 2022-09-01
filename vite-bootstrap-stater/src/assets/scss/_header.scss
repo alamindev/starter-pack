@@ -1,0 +1,44 @@
+.top--header{
+    padding: 5px 15px;
+    font-size: 14px;
+    @media (min-width: 600px) {
+        font-size: 16px;
+    }
+}
+.header--area{
+    background: #000; 
+}
+.navbar-top{
+    ul{
+        li{
+            a{
+                display: inline-block;
+                font-weight: 600;
+                color: white;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 250px;
+        right: -999px;
+        background: #000;
+        padding-top: 5rem;
+        transition: 0.3s ease all;
+        z-index: 999;
+    }
+}
+.active{
+    right: 0 !important
+}
+
+.mobile-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3); 
+    z-index: 99;
+}

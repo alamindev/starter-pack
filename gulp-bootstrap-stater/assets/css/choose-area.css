@@ -1,0 +1,10 @@
+.choose--area .bg-two-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.choose--area .choose--area-box {
+  background-color: #FDFEFF;
+  border-radius: 40px;
+  padding: 2rem;
+}
